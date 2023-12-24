@@ -18,7 +18,7 @@ function countCats(matrix) {
   let counter = 0;
   for(let row of matrix) {
     for(let elem of row) {
-      if(typeof elem === 'string' && elem === '^^') {
+      if(elem === '^^') {
         counter++;
       }
     }
